@@ -138,9 +138,8 @@ The dashboard demonstrates how a cleaned SQL dataset can support accessible, sel
 ├── sql/
 │   ├── schema_reference.sql
 │   ├── validation_queries.sql
-│   └── usp_TransformUsers.sql   # Add YOUR exported implementation
 └── sample-data/
-    └── users_sample.json       # Add a small source sample
+    └── users_sample.json       
 ```
 
 **No ARM templates / ADF JSON exports and no Power BI `.pbix` are published.** Instead, pipeline and dashboard screenshots document these components. The stored-procedure source and SQL validations provide inspectable engineering evidence.
