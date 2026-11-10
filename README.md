@@ -95,7 +95,6 @@ Technical challenges included:
 3. **Missing department information:** an incorrect nested JSON mapping produced `Unknown` values; tracing the issue from Power BI back to ADF fixed the source field mapping.
 4. **Stale report data:** after SQL was corrected, the imported Power BI data had to be refreshed to show the latest results.
 
-![Successful ADF run](docs/images/adf-successful-run.png)
 
 ![SQL data checks](docs/images/sql-validation.png)
 
